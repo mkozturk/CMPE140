@@ -1,0 +1,43 @@
+#!/bin/bash
+
+
+#pip install jupyter_contrib_nbextensions
+#pip install jupyter-nbextensions-configurator
+#pip install RISE
+#pip install nbpresent
+
+# install nbextension files
+# edit nbconvert config files
+jupyter contrib nbextension install --user
+
+# configuring the notebook server to load the server extension
+jupyter nbextensions_configurator enable --user
+
+cat | perl -pe 'chomp if eof' > ~/.jupyter/nbconfig/common.json <<EOF
+{
+  "nbext_hide_incompat": false
+}
+EOF
+
+# nbpresent
+jupyter nbextension install nbpresent --py --overwrite
+jupyter nbextension enable nbpresent --py
+jupyter serverextension enable nbpresent --py
+
+jupyter-nbextension enable codefolding/main
+jupyter-nbextension install rise --py --sys-prefix
+jupyter-nbextension enable splitcell/splitcell
+jupyter-nbextension enable hide_input/main
+jupyter-nbextension enable nbextensions_configurator/tree_tab/main
+jupyter-nbextension enable nbextensions_configurator/config_menu/main
+jupyter-nbextension enable contrib_nbextensions_help_item/main 
+jupyter-nbextension enable scroll_down/main
+jupyter-nbextension enable toc2/main
+jupyter-nbextension enable autoscroll/main 
+jupyter-nbextension enable rubberband/main
+jupyter-nbextension enable exercise2/main
+
+jupyter labextension install @jupyterlab/toc
+jupyter labextension enable @jupyterlab/toc
+
+
