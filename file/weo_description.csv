@@ -1,0 +1,46 @@
+WEO Subject Code,Subject Descriptor,Units,Scale
+NGDP_R,"Gross domestic product, constant prices",National currency,Billions
+NGDP_RPCH,"Gross domestic product, constant prices",Percent change,
+NGDP,"Gross domestic product, current prices",National currency,Billions
+NGDPD,"Gross domestic product, current prices",U.S. dollars,Billions
+PPPGDP,"Gross domestic product, current prices",Purchasing power parity; international dollars,Billions
+NGDP_D,"Gross domestic product, deflator",Index,
+NGDPRPC,"Gross domestic product per capita, constant prices",National currency,Units
+NGDPRPPPPC,"Gross domestic product per capita, constant prices",Purchasing power parity; 2011 international dollar,Units
+NGDPPC,"Gross domestic product per capita, current prices",National currency,Units
+NGDPDPC,"Gross domestic product per capita, current prices",U.S. dollars,Units
+PPPPC,"Gross domestic product per capita, current prices",Purchasing power parity; international dollars,Units
+NGAP_NPGDP,Output gap in percent of potential GDP,Percent of potential GDP,
+PPPSH,Gross domestic product based on purchasing-power-parity (PPP) share of world total,Percent,
+PPPEX,Implied PPP conversion rate,National currency per current international dollar,
+NID_NGDP,Total investment,Percent of GDP,
+NGSD_NGDP,Gross national savings,Percent of GDP,
+PCPI,"Inflation, average consumer prices",Index,
+PCPIPCH,"Inflation, average consumer prices",Percent change,
+PCPIE,"Inflation, end of period consumer prices",Index,
+PCPIEPCH,"Inflation, end of period consumer prices",Percent change,
+FLIBOR6,Six-month London interbank offered rate (LIBOR),Percent,
+TM_RPCH,Volume of imports of goods and services,Percent change,
+TMG_RPCH,Volume of Imports of goods,Percent change,
+TX_RPCH,Volume of exports of goods and services,Percent change,
+TXG_RPCH,Volume of exports of goods,Percent change,
+LUR,Unemployment rate,Percent of total labor force,
+LE,Employment,Persons,Millions
+LP,Population,Persons,Millions
+GGR,General government revenue,National currency,Billions
+GGR_NGDP,General government revenue,Percent of GDP,
+GGX,General government total expenditure,National currency,Billions
+GGX_NGDP,General government total expenditure,Percent of GDP,
+GGXCNL,General government net lending/borrowing,National currency,Billions
+GGXCNL_NGDP,General government net lending/borrowing,Percent of GDP,
+GGSB,General government structural balance,National currency,Billions
+GGSB_NPGDP,General government structural balance,Percent of potential GDP,
+GGXONLB,General government primary net lending/borrowing,National currency,Billions
+GGXONLB_NGDP,General government primary net lending/borrowing,Percent of GDP,
+GGXWDN,General government net debt,National currency,Billions
+GGXWDN_NGDP,General government net debt,Percent of GDP,
+GGXWDG,General government gross debt,National currency,Billions
+GGXWDG_NGDP,General government gross debt,Percent of GDP,
+NGDP_FY,"Gross domestic product corresponding to fiscal year, current prices",National currency,Billions
+BCA,Current account balance,U.S. dollars,Billions
+BCA_NGDPD,Current account balance,Percent of GDP,
